@@ -14,6 +14,8 @@ public class ListViewImageAndText extends Application {
 		FXMLLoader loader = new FXMLLoader( getClass().getResource("ListViewImageAndText.fxml"));
 		Parent root = loader.load();
 		
+		
+		
 		Scene s = new Scene(root);
 		
 		primaryStage.setScene(s);
